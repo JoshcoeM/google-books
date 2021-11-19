@@ -6,7 +6,7 @@ function Search(){
     const navigate = useNavigate();
 
     let goToSearchResults = () => {
-        navigate('/search?term=' + term);    
+        navigate('/search-results?term=' + term);    
     }
 
     return (
